@@ -1,20 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>CSS Grid</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showroom AutoDrive | Catálogo Completo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
-  <header class="header">Header</header>
-  <aside class="sidebar">Side Bar</aside>
-  <div class="content1">Content 1</div>
-  <div class="content2">Content 2</div>
-  <div class="content3">Content 3</div>
-  <footer class="footer">Footer</footer>
-</div>
+    <header>
+        <h1>Showroom AutoDrive</h1>
+        <nav>
+            <ul>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#tabela">Especificações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="galeria" class="container">
+            <h2>Nossa Frota</h2>
+            <div class="grid-carros">
+                <div class="card">
+                    <img src="img/ferrari_vermelha bg.png" alt="Ferrari Vermelha" height="350" width="300"
+                    <div class="info">
+                        <h3>Ferrari</h3>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/audi.png" alt="Audi" height="160" width="auto"
+                    <div class="info">
+                        <h3>Audi</h3>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/camaro preto.png" alt="Camaro Preto">
+                    <div class="info">
+                        <h3>Camaro</h3>
+                       
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/hb20.png" alt="HB20" height="190" width="auto"
+                    <div class="info">
+                        <h3>HB20</h3>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/onix.png" alt="Onix" height="190" width="auto"
+                    <div class="info">
+                        <h3>Onix</h3>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/fusca.jpg" alt="Fusca" height="260" width="280"
+                    <div class="info">
+                        <h3>Fusca</h3>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tabela" class="container">
+            <h2>Ficha Técnica dos Modelos</h2>
+            <div class="tabela-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Veículo</th>
+                            <th>Categoria</th>
+                            <th>Tipo de Motor</th>
+                            <th>Condição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ferrari Vermelha</td>
+                            <td>Superesportivo</td>
+                            <td>V8 / V12</td>
+                            <td>Premium</td>
+                        </tr>
+                        <tr>
+                            <td>Audi</td>
+                            <td>Sedan / Sport</td>
+                            <td>Turbo TFSI</td>
+                            <td>Novo</td>
+                        </tr>
+                        <tr>
+                            <td>Camaro Preto</td>
+                            <td>Muscle Car</td>
+                            <td>V8 6.2L</td>
+                            <td>Seminovo</td>
+                        </tr>
+                        <tr>
+                            <td>Fusca</td>
+                            <td>Antigo</td>
+                            <td>1600 Ar</td>
+                            <td>Relíquia</td>
+                        </tr>
+                        <tr>
+                            <td>HB20 / Onix</td>
+                            <td>Hatch Popular</td>
+                            <td>1.0 Flex</td>
+                            <td>Econômico</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Catálogo Automotivo - Desenvolvido para o Curso HTML</p>
+    </footer>
 
 </body>
 </html>
